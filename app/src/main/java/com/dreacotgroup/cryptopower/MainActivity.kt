@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         setContentView(R.layout.activity_main)
-//        startActivity(Intent(this, GioActivity::class.java))
+        startActivity(Intent(this, GioActivity::class.java))
     }
 
     // Function to check and request permission.
